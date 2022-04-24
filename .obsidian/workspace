@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linear Algebra/1.行列式.md",
+            "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linear Algebra/1.行列式.md",
+            "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数.md",
             "mode": "source"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra/1.行列式.md",
+                "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra/1.行列式.md"
+                "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数.md"
               }
             }
           }
@@ -121,17 +121,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "73b6b8ea3892394e",
+  "active": "930b159d83d97d54",
   "lastOpenFiles": [
-    "Linear Algebra/1.行列式.md",
+    "Advanced Mathematics/1.函数 极限 连续/1.1函数.md",
+    "Advanced Mathematics/1.函数 极限 连续/有界性.md",
+    "Advanced Mathematics/1.函数 极限 连续/单调性.md",
     "Probability Theory And Mathematical Statistics/2.随机变量及其概率分布.md",
+    "Linear Algebra/1.行列式.md",
     "Advanced Mathematics/1.函数 极限 连续/1.2极限.md",
     "Advanced Mathematics/5.多元函数微分学/5.1重极限、连续、偏导数、全微分（概念、理论).md",
     "Probability Theory And Mathematical Statistics/1.随机事件与概率.md",
     "Advanced Mathematics/4.常微分方程/4.1常微分方程.md",
-    "Advanced Mathematics/8.向量代数与空间解析几何及多元微分学在几何上的应用/8.5方向导数与梯度.md",
-    "Advanced Mathematics/9.多元积分学及其应用/9.3场论初步.md",
-    "Advanced Mathematics/3.一元函数积分学/各种线.md",
-    "Advanced Mathematics/3.一元函数积分学/3.3定积分应用.md"
+    "Advanced Mathematics/8.向量代数与空间解析几何及多元微分学在几何上的应用/8.5方向导数与梯度.md"
   ]
 }
