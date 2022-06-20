@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数.md",
+            "file": "Advanced Mathematics/9.多元积分学及其应用/9.1三重积分与线面积分.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数.md",
+            "file": "Advanced Mathematics/9.多元积分学及其应用/9.1三重积分与线面积分.md",
             "mode": "source"
           }
         },
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fc2d2767ce556736",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数.md",
+                "file": "Advanced Mathematics/9.多元积分学及其应用/9.1三重积分与线面积分.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数.md"
+                "file": "Advanced Mathematics/9.多元积分学及其应用/9.1三重积分与线面积分.md"
               }
             }
           }
@@ -123,6 +122,8 @@
   },
   "active": "930b159d83d97d54",
   "lastOpenFiles": [
+    "Advanced Mathematics/9.多元积分学及其应用/9.1三重积分与线面积分.md",
+    "Linear Algebra/3.向量与线性方程组.md",
     "Advanced Mathematics/1.函数 极限 连续/1.1函数.md",
     "Advanced Mathematics/1.函数 极限 连续/有界性.md",
     "Advanced Mathematics/1.函数 极限 连续/单调性.md",
@@ -130,8 +131,6 @@
     "Linear Algebra/1.行列式.md",
     "Advanced Mathematics/1.函数 极限 连续/1.2极限.md",
     "Advanced Mathematics/5.多元函数微分学/5.1重极限、连续、偏导数、全微分（概念、理论).md",
-    "Probability Theory And Mathematical Statistics/1.随机事件与概率.md",
-    "Advanced Mathematics/4.常微分方程/4.1常微分方程.md",
-    "Advanced Mathematics/8.向量代数与空间解析几何及多元微分学在几何上的应用/8.5方向导数与梯度.md"
+    "Probability Theory And Mathematical Statistics/1.随机事件与概率.md"
   ]
 }
