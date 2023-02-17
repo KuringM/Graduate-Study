@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "d9ff7a24d0c7d795",
+    "type": "split",
+    "children": [
+      {
+        "id": "e91a07480c791de2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Advanced Mathematics/1.函数 极限 连续/1.2极限.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "58e02425ca452df1",
+    "type": "split",
+    "children": [
+      {
+        "id": "163524fac0d6ef58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8296039d85c3370c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "503565ed5c1bbec3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "638283fec3922f67",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5a86655c0854d37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0324ee8bc224fda9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Advanced Mathematics/1.函数 极限 连续/1.2极限.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d19c1d99939d0eb1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Advanced Mathematics/1.函数 极限 连续/1.2极限.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b2abc69b1964fa0a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b025612b52e036c5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Advanced Mathematics/1.函数 极限 连续/1.2极限.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e91a07480c791de2",
+  "lastOpenFiles": [
+    "Advanced Mathematics/1.函数 极限 连续/1.1函数.md",
+    "Advanced Mathematics/1.函数 极限 连续/单调性.md",
+    "Advanced Mathematics/1.函数 极限 连续/有界性.md",
+    "Advanced Mathematics/5.多元函数微分学/5.1重极限、连续、偏导数、全微分（概念、理论).md",
+    "Advanced Mathematics/高等数学.md",
+    "Advanced Mathematics/1.函数 极限 连续/1.3连续.md",
+    "Advanced Mathematics/1.函数 极限 连续/1.2极限.md",
+    "Advanced Mathematics/7.无穷级数/7.2幂级数.md",
+    "Linear Algebra/2.矩阵.md",
+    "Advanced Mathematics/5.多元函数微分学/5.2偏导数与全微分的计算.md"
+  ]
+}

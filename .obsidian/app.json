@@ -1,0 +1,17 @@
+{
+  "alwaysUpdateLinks": true,
+  "fileSortOrder": "alphabetical",
+  "promptDelete": true,
+  "attachmentFolderPath": "./Accessory",
+  "foldHeading": false,
+  "foldIndent": true,
+  "showIndentGuide": true,
+  "rightToLeft": false,
+  "showInlineTitle": true,
+  "livePreview": false,
+  "newFileLocation": "current",
+  "newLinkFormat": "shortest",
+  "showLineNumber": true,
+  "defaultViewMode": "preview",
+  "strictLineBreaks": true
+}
