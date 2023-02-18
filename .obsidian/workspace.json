@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.2函数特性/单调性.md",
+                "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.1函数概念/函数的概念.md",
                 "mode": "preview",
                 "source": true
               }
@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "638283fec3922f67",
@@ -93,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.2函数特性/单调性.md",
+                "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.1函数概念/函数的概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.2函数特性/单调性.md",
+                "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.1函数概念/函数的概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.2函数特性/单调性.md"
+                "file": "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.1函数概念/函数的概念.md"
               }
             }
           }
@@ -156,13 +155,13 @@
   },
   "active": "6ebc023348b07842",
   "lastOpenFiles": [
+    "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.2函数特性/单调性.md",
     "Advanced Mathematics/高等数学.md",
     "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.1函数概念/映射.md",
     "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.1函数概念/逆映射与复合映射.md",
     "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.1函数概念/函数的概念.md",
     "Advanced Mathematics/1.函数 极限 连续/1.1函数/函数概念.md",
     "Advanced Mathematics/1.函数 极限 连续/1.1函数.md",
-    "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.2函数特性/单调性.md",
     "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.2函数特性/奇偶性.md",
     "Advanced Mathematics/1.函数 极限 连续/1.2极限.md",
     "Advanced Mathematics/1.函数 极限 连续/1.1函数/1.1.1函数概念/1.1.2逆映射与复合映射.md"
