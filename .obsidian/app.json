@@ -13,5 +13,6 @@
   "newLinkFormat": "shortest",
   "showLineNumber": true,
   "defaultViewMode": "preview",
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "readableLineLength": false
 }
