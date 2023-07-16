@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"Advanced Mathematics\"",
@@ -15,30 +15,30 @@
       }
     },
     {
-      "query": "",
+      "query": "path:\"Linear Algebra\"",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "",
+      "query": "path:\"Probability Theory And Mathematical Statistics\"",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "nodeSizeMultiplier": 1.49686686197917,
+  "lineSizeMultiplier": 0.995222981770833,
+  "collapse-forces": true,
+  "centerStrength": 1,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1.0184418355820324,
+  "linkDistance": 30,
+  "scale": 1.0254022697913918,
   "close": false
 }
