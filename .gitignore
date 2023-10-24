@@ -1,5 +1,9 @@
-.DS_Store
-.obsidian/workspace-mobile.json
-.obsidian/workspace.json
-.obsidian/appearance.json
-.obsidian/*
+# ignore everything
+/*
+/*/
+
+# ... but these:
+!/Advanced Mathematics
+!/Linear Algebra
+!/Probability Theory And Mathematical Statistics
+!/.gitignore
