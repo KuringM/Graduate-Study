@@ -14,5 +14,6 @@
   "showLineNumber": true,
   "defaultViewMode": "preview",
   "strictLineBreaks": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "focusNewTab": true
 }
