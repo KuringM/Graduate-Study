@@ -15,5 +15,6 @@
   "defaultViewMode": "preview",
   "strictLineBreaks": true,
   "readableLineLength": false,
-  "focusNewTab": true
+  "focusNewTab": true,
+  "tabSize": 2
 }
