@@ -4,6 +4,8 @@
 
 - As someone pointed out,...
 
+###### Just as: 正如
+
 ##### 作介词, 表示"作为"
 
 - As a person, I should learn things.
