@@ -1,7 +1,7 @@
 {
   "alwaysUpdateLinks": true,
   "fileSortOrder": "alphabetical",
-  "promptDelete": false,
+  "promptDelete": true,
   "attachmentFolderPath": "./Accessory",
   "foldHeading": false,
   "foldIndent": true,
@@ -10,11 +10,12 @@
   "showInlineTitle": true,
   "livePreview": true,
   "newFileLocation": "current",
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "relative",
   "showLineNumber": true,
   "defaultViewMode": "preview",
   "strictLineBreaks": true,
   "readableLineLength": false,
   "focusNewTab": true,
-  "tabSize": 2
+  "tabSize": 2,
+  "autoPairBrackets": false
 }
