@@ -8,14 +8,21 @@
   "showIndentGuide": true,
   "rightToLeft": false,
   "showInlineTitle": true,
-  "livePreview": false,
+  "livePreview": true,
   "newFileLocation": "current",
-  "newLinkFormat": "relative",
+  "newLinkFormat": "shortest",
   "showLineNumber": true,
   "defaultViewMode": "preview",
   "strictLineBreaks": true,
   "readableLineLength": false,
   "focusNewTab": true,
   "tabSize": 2,
-  "autoPairBrackets": false
+  "autoPairBrackets": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
