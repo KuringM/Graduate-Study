@@ -8,7 +8,7 @@
   "showIndentGuide": true,
   "rightToLeft": false,
   "showInlineTitle": true,
-  "livePreview": true,
+  "livePreview": false,
   "newFileLocation": "current",
   "newLinkFormat": "shortest",
   "showLineNumber": true,
