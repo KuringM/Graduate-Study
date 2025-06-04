@@ -3,7 +3,7 @@
   "fileSortOrder": "alphabetical",
   "promptDelete": true,
   "attachmentFolderPath": "./Accessory",
-  "foldHeading": false,
+  "foldHeading": true,
   "foldIndent": true,
   "showIndentGuide": true,
   "rightToLeft": false,
