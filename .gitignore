@@ -1,6 +1,7 @@
 # ignore everything
 /*
 /*/
+.DS_Store
 
 # ... but these:
 !/.gitignore
