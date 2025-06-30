@@ -7,7 +7,7 @@
   "foldIndent": true,
   "showIndentGuide": true,
   "rightToLeft": false,
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "livePreview": false,
   "newFileLocation": "current",
   "newLinkFormat": "shortest",
