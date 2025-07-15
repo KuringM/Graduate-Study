@@ -12,7 +12,7 @@
   "newFileLocation": "current",
   "newLinkFormat": "shortest",
   "showLineNumber": true,
-  "defaultViewMode": "source",
+  "defaultViewMode": "preview",
   "strictLineBreaks": true,
   "readableLineLength": false,
   "focusNewTab": true,
