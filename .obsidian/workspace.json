@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机组成原理/4.指令系统/过程调用的机器级表示.md",
+                "file": "计算机组成原理/4.指令系统/CISC和RISC.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "过程调用的机器级表示"
+              "title": "CISC和RISC"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机组成原理/4.指令系统/过程调用的机器级表示.md",
+                "file": "计算机组成原理/4.指令系统/CISC和RISC.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "过程调用的机器级表示 的大纲"
+              "title": "CISC和RISC 的大纲"
             }
           },
           {
@@ -185,9 +185,11 @@
   },
   "active": "8150bc2297b05680",
   "lastOpenFiles": [
+    "计算机组成原理/4.指令系统/Accessory/Pasted image 20250821170845.png",
     "计算机组成原理/4.指令系统.md",
-    "计算机组成原理/4.指令系统/常用汇编指令介绍.md",
+    "计算机组成原理/4.指令系统/复杂指令系统计算机CISC.md",
     "计算机组成原理/4.指令系统/过程调用的机器级表示.md",
+    "计算机组成原理/4.指令系统/常用汇编指令介绍.md",
     "计算机组成原理/4.指令系统/Accessory/Pasted image 20250821163751.png",
     "计算机组成原理/4.指令系统/Accessory/Pasted image 20250821160430.png",
     "计算机组成原理/4.指令系统/循环语句的机器级表示.md",
@@ -197,7 +199,7 @@
     "计算机组成原理/4.指令系统/选择语句的机器级表示.md",
     "Advanced Mathematics/3.一元函数积分学/3.3反常积分.md",
     "Advanced Mathematics/3.一元函数积分学/3.2定积分.md",
-    "计算机组成原理/4.指令系统/CISC和RISC的比较.md",
+    "计算机组成原理/4.指令系统/CISC和RISC.md",
     "数据结构/3.栈队列数组.md",
     "数据结构/2.线性表.md",
     "数据结构/1.绪论.md",
@@ -219,8 +221,6 @@
     "计算机组成原理/3.存储系统/只读存储器.md",
     "计算机组成原理/3.存储系统/Cache和主存的映射方式.md",
     "计算机组成原理/3.存储系统/多模块存储器.md",
-    "计算机组成原理/3.存储系统/磁盘存储器.md",
-    "计算机组成原理/2.数据的表示和运算.md",
     "计算机组成原理/4.指令系统/Accessory",
     "计算机组成原理/4.指令系统",
     "计算机组成原理/3.存储系统/Accessory",
