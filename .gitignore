@@ -4,6 +4,7 @@
 .DS_Store
 
 # ... but these:
+!/.obsidian
 !/.gitignore
 !/Advanced Mathematics
 !/Linear Algebra

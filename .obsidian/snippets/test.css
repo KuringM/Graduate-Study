@@ -1,0 +1,132 @@
+/* ===== Pretty Code Blocks for Obsidian ===== */
+/* 亮/暗主题自适应变量(尽量使用 Obsidian 自带变量做兜底) */
+:root {
+  --cb-radius: 12px;
+  --cb-padding-v: 0.8rem;
+  --cb-padding-h: 1rem;
+  --cb-font: var(--font-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --cb-border: var(--background-modifier-border, rgba(0,0,0,.1));
+  --cb-shadow: 0 6px 20px rgba(0,0,0,.06), inset 0 1px 0 rgba(255,255,255,.04);
+  --cb-bg: var(--background-modifier-code, var(--background-secondary));
+  --cb-text: var(--text-normal);
+  --cb-muted: var(--text-muted);
+  --cb-accent: var(--interactive-accent);
+}
+
+/* 预览:块级代码 */
+.markdown-preview-view pre {
+  background: var(--cb-bg) !important;
+  border: 1px solid var(--cb-border) !important;
+  border-radius: var(--cb-radius) !important;
+  box-shadow: var(--cb-shadow) !important;
+  margin: 0.9rem 0 !important;
+  overflow: auto !important;
+  padding: var(--cb-padding-v) var(--cb-padding-h) !important;
+  line-height: 1.6 !important;
+}
+
+.markdown-preview-view pre code {
+  font-family: var(--cb-font) !important;
+  font-size: .95rem !important;
+  color: var(--cb-text) !important;
+  background: transparent !important; /* 避免 theme 叠加底色 */
+  tab-size: 2;
+}
+
+/* 编辑器(Live Preview / Source):代码块主体 */
+.cm-s-obsidian .cm-code, /* 旧选择器兼容 */
+.markdown-source-view.mod-cm6 .cm-scroller,
+.markdown-source-view.mod-cm6 .cm-content {
+  font-family: var(--cb-font);
+}
+
+.markdown-source-view.mod-cm6 .cm-editor .cm-scroller {
+  background: transparent;
+}
+
+.markdown-source-view.mod-cm6 .cm-editor .cm-line {
+  line-height: 1.6;
+  padding-left: .1rem;
+}
+
+/* 统一"块级代码容器"的外观(CodeMirror 折叠的包裹层) */
+.markdown-source-view.mod-cm6 .HyperMD-codeblock,
+.markdown-source-view.mod-cm6 .cm-embed-block .cm-codeblock,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+  background: var(--cb-bg);
+  border: 1px solid var(--cb-border);
+  border-radius: var(--cb-radius);
+  box-shadow: var(--cb-shadow);
+  padding: .6rem .8rem;
+}
+
+/* 内边距细节:首行/末行不被粘边 */
+.markdown-source-view.mod-cm6 .HyperMD-codeblock:first-child { margin-top: .2rem; }
+.markdown-source-view.mod-cm6 .HyperMD-codeblock:last-child  { margin-bottom: .2rem; }
+
+/* 代码块顶部细彩条(低调一点的强调) */
+.markdown-preview-view pre,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock {
+  position: relative;
+}
+.markdown-preview-view pre::before,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto auto 0;
+  height: 3px;
+  width: 80px;
+  border-top-left-radius: var(--cb-radius);
+  border-bottom-right-radius: 6px;
+  background: linear-gradient(90deg, var(--cb-accent), color-mix(in oklab, var(--cb-accent) 60%, transparent));
+  opacity: .85;
+}
+
+/* 行内代码(不影响块级) */
+.markdown-preview-view code:not(pre code),
+.markdown-source-view.mod-cm6 .cm-inline-code {
+  font-family: var(--cb-font);
+  background: color-mix(in oklab, var(--cb-bg) 85%, transparent);
+  border: 1px solid var(--cb-border);
+  border-radius: 8px;
+  padding: .08rem .35rem;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+/* 代码块的滚动条(简洁一点) */
+.markdown-preview-view pre::-webkit-scrollbar {
+  height: 10px; width: 10px;
+}
+.markdown-preview-view pre::-webkit-scrollbar-thumb {
+  background: color-mix(in oklab, var(--cb-text) 20%, transparent);
+  border-radius: 999px;
+}
+
+/* 复制按钮(Obsidian 内置 copy 按钮样式名可能因版本/主题略有差异, 做宽松匹配) */
+.markdown-preview-view .copy-code-button,
+.markdown-preview-view .code-block-copy,
+.markdown-preview-view .mod-code-block .clickable-icon {
+  top: 8px !important;
+  right: 8px !important;
+  opacity: .85;
+  border-radius: 10px;
+  padding: .25rem .5rem;
+  backdrop-filter: saturate(140%) blur(2px);
+  border: 1px solid var(--cb-border);
+}
+.markdown-preview-view .copy-code-button:hover,
+.markdown-preview-view .code-block-copy:hover,
+.markdown-preview-view .mod-code-block .clickable-icon:hover {
+  opacity: 1;
+}
+
+/* 选中与高亮(搜索命中、语法 highlighter 的 selection) */
+.markdown-preview-view pre ::selection,
+.markdown-source-view.mod-cm6 .cm-content ::selection {
+  background: color-mix(in oklab, var(--cb-accent) 28%, transparent);
+}
+
+/* (可选)更清晰的行间分隔感:给每一行 token 轻微底色, 提高可读性. 用着不适可删 */
+.markdown-preview-view pre code span {
+  text-shadow: 0 0 0 transparent; /* 抹掉某些主题的发光效果 */
+}

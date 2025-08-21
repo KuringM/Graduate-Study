@@ -1,0 +1,145 @@
+/* === Obsidian 全套美化(预览 + 编辑模式)=== */
+
+/* ===== 标题 H1~H6 ===== */
+.markdown-preview-view h1,
+.cm-header-1 {
+  color: #2c3e50 !important;
+  font-size: 1.8em !important;
+  font-weight: 700 !important;
+  border-bottom: 1px solid #2c3e50 !important; /* 下划线装饰 */
+  padding-bottom: 0.2em !important;
+  margin-bottom: 0.5em !important;
+}
+.markdown-preview-view h2,
+.cm-header-2 {
+  color: #4169e1 !important;
+  font-size: 1.6em !important;
+  font-weight: 700 !important;
+  border-bottom: 1px solid #4169e1 !important; /* 下划线装饰 */
+  padding-bottom: 0.15em !important;
+  margin-bottom: 0.4em !important;
+}
+.markdown-preview-view h3,
+.cm-header-3 {
+  color: #1e90ff !important;
+  font-size: 1.4em !important;
+  font-weight: 600 !important;
+  border-bottom: 1px solid #1e90ff !important; /* 下划线装饰 */
+  padding-bottom: 0.1em !important;
+  margin-bottom: 0.3em !important;
+}
+.markdown-preview-view h4,
+.cm-header-4 {
+  color: #ff8c00 !important;
+  font-size: 1.2em !important;
+  font-weight: 600 !important;
+}
+.markdown-preview-view h5,
+.cm-header-5 {
+  color: #fb4934 !important;
+  font-size: 1.05em !important;
+  font-weight: 600 !important;
+}
+.markdown-preview-view h6,
+.cm-header-6 {
+  color: #888888 !important;
+  font-style: italic !important;
+  font-size: 1em !important;
+  opacity: 0.9 !important;
+  font-family: "Georgia", "Times New Roman", serif !important;
+}
+
+/* ===== 加粗文本 ===== */
+.markdown-preview-view strong,
+.markdown-preview-view b,
+.cm-strong {
+  color: #ff82b2 !important;
+  font-weight: 800 !important;
+  font-family: "Georgia", "Times New Roman", serif !important;
+}
+
+/* ===== 斜体文本 ===== */
+.markdown-preview-view em,
+.markdown-preview-view i,
+.cm-em {
+  color: #1e90ff !important;
+  font-style: italic !important;
+  font-family: "Georgia", "Times New Roman", serif !important;
+}
+
+/* ===== 自定义 span.d 样式 ===== */
+.markdown-preview-view span.d,
+.cm-s-obsidian span.cm-inline-code.cm-d {
+  color: #ff82b2 !important;
+  font-weight: 800 !important;
+  font-family: "Georgia", "Times New Roman", serif !important;
+}
+
+/* ===== 代码块(多行) ===== */
+/* .cm-s-obsidian */
+/* .HyperMD-codeblock */
+/* 整个代码块样式 */
+.markdown-preview-view pre {
+  background-color: #f8f8f8 !important;
+  border: 2px solid #e0e0e0 !important;
+  border-radius: 6px !important;
+  padding: 0.6em 0.8em !important;
+  font-family: "Fira Code", "JetBrains Mono", monospace !important;
+  font-size: 0.95em !important;
+  line-height: 1.4 !important;
+  overflow-x: auto; /* 代码过长时横向滚动 */
+}
+
+/* 代码文本保持透明背景 */
+.markdown-preview-view pre code {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* ===== 行内代码 ===== */
+.markdown-preview-view code,
+.cm-inline-code {
+  background-color: #f0f0f0 !important;
+  border-radius: 4px !important;
+  padding: 0.1em 0.3em !important;
+  font-family: "Fira Code", "JetBrains Mono", monospace !important;
+  font-size: 0.95em !important;
+}
+
+/* ===== 引用块 ===== */
+/* c.cm-quote  */
+.markdown-preview-view blockquote {
+  border-left: 4px solid #4169e1 !important;
+  background-color: rgba(65, 105, 225, 0.05) !important;
+  padding: 0.6em 1em !important;
+  border-radius: 4px !important;
+  color: #ff8c00 !important;
+  font-style: italic !important;
+}
+
+/* ===== 表格 ===== */
+.markdown-preview-view table,
+.cm-table {
+  border-collapse: collapse !important;
+  /* width: 50% !important; */
+  font-size: 0.95em !important;
+}
+
+.markdown-preview-view table th,
+.markdown-preview-view table td,
+.cm-table .table-cell {
+  border: 1px solid #ccc !important;
+  padding: 0.4em 0.6em !important;
+}
+
+.markdown-preview-view table th {
+  background-color: #f0f4ff !important;
+  font-weight: 700 !important;
+  /* text-align: left !important; */
+}
+
+/* 表格偶数行背景 */
+.markdown-preview-view table tr:nth-child(even) {
+  background-color: #fafafa !important;
+}

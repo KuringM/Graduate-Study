@@ -1,0 +1,10 @@
+/* 居中对齐图片 */
+img {
+  display: block; /* 将图片设置为块级元素 */
+  margin-left: auto; /* 左边距自动，即居中 */
+  margin-right: auto; /* 右边距自动，即居中 */
+  /* width: 20%; */
+  max-width: 100%;
+  width: auto !important;
+  height: auto !important;
+}

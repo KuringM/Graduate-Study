@@ -1,0 +1,35 @@
+/* 默认折叠 h6 下内容，适用于 Obsidian 的预览模式 */
+.markdown-preview-view h6 {
+  cursor: pointer;
+  position: relative;
+}
+
+.markdown-preview-view h6::before {
+  /* content: '▶'; */
+  display: inline-block;
+  margin-right: 0.4em;
+  transition: transform 0.2s ease;
+}
+
+/* 默认折叠：所有 h6 后的段落隐藏，直到下一个 h1/h6 为止 */
+.markdown-preview-view h6 + *, 
+.markdown-preview-view h6 ~ * {
+  display: none;
+}
+
+/* 展开状态样式 */
+.markdown-preview-view h6.fold-open::before {
+  transform: rotate(90deg);
+}
+
+.markdown-preview-view h6.fold-open + *,
+.markdown-preview-view h6.fold-open ~ * {
+  display: block;
+}
+
+/* 防止展示超出同级标题 */
+.markdown-preview-view h6.fold-open ~ h6,
+.markdown-preview-view h6.fold-open ~ h1 {
+  display: block;
+}
+

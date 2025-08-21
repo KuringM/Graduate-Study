@@ -1,0 +1,20 @@
+{
+  "baseFontSize": 18,
+  "cssTheme": "Things",
+  "accentColor": "",
+  "theme": "moonstone",
+  "showViewHeader": true,
+  "nativeMenus": true,
+  "translucency": false,
+  "interfaceFontFamily": "LXGW WenKai Mono,FiraCode Nerd Font Mono",
+  "monospaceFontFamily": "FuraCode Nerd Font Mono",
+  "textFontFamily": "LXGW WenKai Mono",
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "img",
+    "headingColor",
+    "color",
+    "theme"
+  ],
+  "showRibbon": true
+}
