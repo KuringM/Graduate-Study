@@ -5,7 +5,7 @@
   "theme": "moonstone",
   "showViewHeader": true,
   "nativeMenus": true,
-  "translucency": false,
+  "translucency": true,
   "interfaceFontFamily": "LXGW WenKai Mono,FiraCode Nerd Font Mono",
   "monospaceFontFamily": "FuraCode Nerd Font Mono",
   "textFontFamily": "LXGW WenKai Mono",
