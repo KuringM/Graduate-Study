@@ -11,10 +11,10 @@
   "textFontFamily": "LXGW WenKai Mono",
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
-    "img",
     "headingColor",
     "color",
-    "theme"
+    "theme",
+    "img"
   ],
   "showRibbon": true
 }
