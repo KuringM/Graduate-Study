@@ -61,6 +61,8 @@
 /* ===== 斜体文本 ===== */
 .markdown-preview-view em,
 .markdown-preview-view i,
+.markdown-source-view.mod-cm6 .cm-em,
+.markdown-rendered em,
 .cm-em {
   color: #1e90ff !important;
   font-style: italic !important;
