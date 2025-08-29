@@ -33,10 +33,12 @@
 
 > 成对出现
 
-- **回送请求** (Echo Request) -- A->B: 在吗?回答我!
-- **回送回答** (Echo Reply) -- B->A: 在!
-- **时间戳请求** (Timestamp Request) -- A->B: 我这边现在的时间是xxxx, 你那边几点了?
-- **时间戳回答** (Timestamp Reply) -- B->A: 我收到请求的时间是yyyy, 我发出回答的时间是zzzz
+- 回送请求和回答报文
+  - **回送请求** (Echo Request) -- A->B: 在吗?回答我!
+  - **回送回答** (Echo Reply) -- B->A: 在!
+- 时间戳请求和回答报文
+  - **时间戳请求** (Timestamp Request) -- A->B: 我这边现在的时间是xxxx, 你那边几点了?
+  - **时间戳回答** (Timestamp Reply) -- B->A: 我收到请求的时间是yyyy, 我发出回答的时间是zzzz
 
 ## 不必反馈ICMP差错报告报文的情况
 
