@@ -36,12 +36,14 @@
   color: #ff8c00 !important;
   font-size: 1.2em !important;
   font-weight: 600 !important;
+  margin-top: 0.8em !important;
 }
 .markdown-preview-view h5,
 .cm-header-5 {
   color: #fb4934 !important;
   font-size: 1.05em !important;
   font-weight: 600 !important;
+  margin-top: 0.8em !important;
 }
 .markdown-preview-view h6,
 .cm-header-6 {
@@ -50,11 +52,13 @@
   font-size: 1em !important;
   opacity: 0.9 !important;
   font-family: "Georgia", "Times New Roman", serif !important;
+  margin-top: 0.8em !important;
 }
 
 /* ===== 加粗文本 ===== */
 .markdown-preview-view strong,
 .markdown-preview-view b,
+.markdown-source-view.mod-cm6 b,
 .cm-strong {
   color: #ff82b2 !important;
   font-weight: 800 !important;
@@ -117,10 +121,11 @@
 .markdown-preview-view blockquote {
   border-left: 4px solid #4169e1 !important;
   background-color: rgba(65, 105, 225, 0.05) !important;
-  padding: 0.6em 1em !important;
+  padding: 0.5em 1em !important;
   border-radius: 4px !important;
   color: #ff8c00 !important;
   font-style: italic !important;
+  font-size: 0.85em !important;
 }
 
 /* ===== 表格 ===== */
@@ -147,4 +152,15 @@
 /* 表格偶数行背景 */
 .markdown-preview-view table tr:nth-child(even) {
   background-color: #fafafa !important;
+}
+
+/* MD embed file */
+.markdown-embed,
+.file-embed {
+  border-left: none !important;
+  /* border-left: 2px solid transparent !important; */
+  padding-left: 0 !important; /* 去缩进 */
+  margin: 0 !important; /* 去多余间距 */
+  background: transparent !important; /* 背景透明 */
+  box-shadow: none !important; /* 去掉可能的阴影 */
 }

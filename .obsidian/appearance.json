@@ -6,9 +6,9 @@
   "showViewHeader": true,
   "nativeMenus": true,
   "translucency": true,
-  "interfaceFontFamily": "LXGW WenKai Mono,FiraCode Nerd Font Mono,Maple Mono NF CN",
-  "monospaceFontFamily": "FuraCode Nerd Font Mono",
-  "textFontFamily": "LXGW WenKai Mono",
+  "interfaceFontFamily": "LXGW WenKai Mono",
+  "monospaceFontFamily": "Maple Mono NF CN",
+  "textFontFamily": "Maple Mono NF CN,LXGW WenKai Mono",
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "headingColor",
