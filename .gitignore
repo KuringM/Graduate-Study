@@ -5,6 +5,7 @@
 
 # ... but these:
 !/.obsidian
+/.obsidian/workspace*
 !/.gitignore
 !/Advanced Mathematics
 !/Linear Algebra
