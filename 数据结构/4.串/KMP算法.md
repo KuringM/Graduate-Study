@@ -36,8 +36,8 @@ int Index_KMP(SString S, SString T,int next[]){
 	int i=1, j=1;
 
 	//继续比较后继字符
-	while(i<=S.length&&j<=T. length){
-		if (j==0 || S.ch [i]==T. ch [j]){
+	while(i <= S.length && j <= T.length){
+		if (j == 0 || S.ch[i] == T.ch[j]){
 			++i;
 			++j;
 		else
@@ -57,7 +57,7 @@ int Index_KMP(SString S, SString T,int next[]){
 - 任何模式串都一样, 第2个字符不匹配时, 应尝试匹配模式串的第1个字符, 因此, 往后余生, ==next[2]都无脑写1==
 - 其他next: ==在不匹配的位置前边划分界线, 模式串一步一步往后退, 直到分界线之前"能对上", 或模式串完全跨过分界线为止此时 j 指向哪儿, next数组值就是多少==
 
-例如: 模式串 T = ababaa
+例如: 模式串 T = "ababaa"
 
 |   序号    |  1  |  2  |  3  |  4  |  5  |  6  |
 | :-------: | :-: | :-: | :-: | :-: | :-: | :-: |
