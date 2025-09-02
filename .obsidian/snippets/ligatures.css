@@ -1,0 +1,42 @@
+/* ========================================
+   Obsidian 连字 + 中文等宽字体 CSS
+   Author: ChatGPT
+   功能: 中英文混排，开启常见编程连字
+   ======================================== */
+
+/* ---------- 主体字体设置 ---------- */
+body,
+.cm-s-obsidian,
+.cm-s-obsidian .CodeMirror,
+div.cm-content {
+  font-family: "LXGW WenKai Mono", "Fira Code", "JetBrains Mono", monospace;
+  font-size: 16px; /* 可根据需要调整字体大小 */
+  line-height: 1.5;
+}
+
+/* ---------- 开启连字 ---------- */
+.cm-s-obsidian span.cm-ligature,
+.CodeMirror span.cm-ligature,
+div.cm-content {
+  font-variant-ligatures: contextual;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+/* ---------- 代码块单独设置 ---------- */
+code,
+.cm-s-obsidian pre,
+div.cm-content code {
+  font-family: "LXGW WenKai Mono", "Fira Code", monospace;
+  font-variant-ligatures: contextual;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+/* ---------- 可选：光标对齐 ---------- */
+.cm-s-obsidian .CodeMirror-cursor {
+  border-left: 1px solid #888; /* 光标颜色 */
+}
+
+/* ---------- 可选：改善中文行间距 ---------- */
+.cm-s-obsidian .cm-line {
+  line-height: 1.6;
+}
